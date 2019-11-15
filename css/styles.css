@@ -1,0 +1,27 @@
+/* font-family: 'EB Garamond', serif; font-family: 'Raleway', sans-serif; */
+
+:root {
+  
+  /* Custom variables */
+  --primary: #3581B8;
+  --secondary: #FCB07E;
+  --neutral: #F3F8F2;
+}
+
+body{
+	margin: 0; 
+	padding: 0;
+	background-color: var(--neutral);
+}
+
+h1, h5{
+	font-family: 'EB Garamond', serif;
+	color: var(--primary);
+}
+
+#signupIns{
+	font-family: 'Raleway',sans-serif;
+	color: var(--secondary);
+}
+
+#customCheck::after{}
